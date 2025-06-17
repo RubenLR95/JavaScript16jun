@@ -2,23 +2,15 @@
 
 const r = pedirNumero("Ingrese el radio de su círculo en centímetros:");
 
+// 6. MOSTRAMOS EL RESULTADO EN PANTALLA CON alert()
+// UTILIZAR toFixed(2) PARA LIMITAR DECIMALES
 
-
-
-// 4. CONVERTIMOS CADA ENTRADA DE STRING A NUMBER
-// SI LA CONVERSIÓN FALLA RESULTARÁ UN NaN
-
-
-
-
-// 5. CALCULAMOS PROMEDIO
 
 const area = (2 * 3.14) * r ;
 
 // 6. MOSTRAMOS EL RESULTADO EN PANTALLA CON alert()
 // UTILIZAR toFixed(2) PARA LIMITAR DECIMALES
 alert(`El area de tu circunferencia es ${area} cm²`);
-
 
 // re-promp hasta que el numero sea válido
 // Función auxiliar que pide un número hasta la conversión con Number no sea un NaN
