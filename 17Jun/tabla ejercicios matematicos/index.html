@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>EJERCICIOS MATEMÁTICOS <br> INTERECTIVOS</h1>
+    <div class="container">
+        <div class="card">
+            <h2>1. PERIMETRO DE UN RECTÁNGULO</h2>
+            <!-- for="baseRect" = id="baseRect" CREA UNA RELACION QUE AL DAR CLICK EN EL label ME DIRIJE AL input -->
+            <label for="baseRect">Base:</label>
+            <input type="number" id="baseRect" placeholder="Ingrese la base">
+
+            <label for="alturaRect">Altura:</label>
+            <input type="number" id="alturaRect" placeholder="Ingrese la altura">
+
+            <button onclick="calcularPerimetro()">CALCULAR</button>
+            <p class="result" id="resPerimetro"></p>
+
+        </div>
+        <!-- CONVERSION CELSIIUS A FARENHEIT -->
+        <div class="card">
+            <h2>2. GRADOS CELSIUS A FAREHNHEIT</h2>
+            <label for="celsius">Grados Celsius:</label>
+            <input type="number" id="celsius" placeholder="ºC">
+            <button onclick= "convertirFahrenheit()" >CONVERTIR</button>
+            <p class="result" id="resFahrenheit"></p>
+
+        </div>
+        <div class="card">
+            <h2>3.</h2>
+        </div>
+    </div>
+    
+
+    
+    
+</body>
+</html>
