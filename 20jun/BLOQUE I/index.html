@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css"> 
+    <title>BLOQUE I</title>
+</head>
+<body>
+    <h1>BLOQUE I. ARRAYS</h1>
+    <div class = "container">
+        <!-- EJERCICIO 1 : To do list -->
+         <section id = "todo" class="ejercicio">
+            <h2>To do List</h2>
+            <input type = "text" id="taskInput" placeholder="Nueva tarea">
+            <button id="addTaskBtn">AÑADIR</button>
+            <ul id="taskList"></ul>
+         </section>
+         <!-- EJERCICIO 2 : Formulario dinámico -->
+          <section id="Formulario" class="ejercicio">
+            <h2>Formulario dinámico</h2>
+            <form id="registerForm">
+                <label>Nombre: <input type="text" name="nombre" required></label>
+                <label>E-mail: <input type="email" name="email" required></label>
+                <label>Edad: <input type="number" name="edad" min="0" required></label>
+                <button type="submit">ENVIAR</button>
+            </form>
+            <div id="formResult" class="resultado"></div>
+          </section>
+
+          <!-- CALCULADORA DE GASTOS -->
+           <section id="calculadora" class="ejercicio">
+                <h2>Calculadora de gastos</h2>
+                <input type="numer" id="expense" placeholder="Gasto (€)" min="0">
+                <button id="addExpenseBtn">AGREGAR GASTO</button>
+                <button id="cleanBtn">VOLVER A EMPEZAR</button>
+                <p>TOTAL GASTADO: <span id="totalSpent" class= "resultado">0</span> €</p>
+           </section>
+
+           <!-- GALERÍA DE IMÁGENES -->
+            <section id="galeria" class="ejercicio">
+                <h2>Galería de imágenes</h2>
+                <button id="prevBtn">ANTERIOR</button>
+                <img id="photo" src="Images/img1.jpeg" alt="Galería" width="200">
+                <button id="nextBtn">SIGUIENTE</button>
+            </section>
+
+            <!-- CLIMA CON API -->
+             <section id="clima" class="ejercicio">
+                <h2>Clima actual</h2>
+                <input type="text" id="cityInput" placeholder="Ciudad">
+                <button id="getWeatherBtn">OBTENER CLIMA</button>
+                <div id="getWeatherResult" class="resultado"></div>
+             </section>
+    </div>
+    
+</body>
+</html>
